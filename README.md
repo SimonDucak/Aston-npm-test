@@ -7,25 +7,13 @@ This isn't particularly useful, it's used as a demo for how to publish Vue compo
 ## Installation
 
 ```js
-npm i --save-dev vue-clock-simple
-```
-
-### Browser
-
-Include the script file, then install the component with `Vue.use(VueClock);` e.g.:
-
-```html
-<script type="text/javascript" src="node_modules/vuejs/dist/vue.min.js"></script>
-<script type="text/javascript" src="node_modules/vue-clock-simple/dist/vue-clock.min.js"></script>
-<script type="text/javascript">
-  Vue.use(VueClock);
-</script>
+npm i --save-dev aston-vue-button-2
 ```
 
 ### Module
 
 ```js
-import VueClock from 'vue-clock-simple';
+import AstonButton from 'aston-vue-button-2';
 ```
 
 ## Usage
@@ -33,5 +21,5 @@ import VueClock from 'vue-clock-simple';
 Once installed, it can be used in a template as simply as:
 
 ```html
-<vue-clock></vue-clock>
+<aston-button></aston-button>
 ```
