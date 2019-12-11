@@ -1,6 +1,6 @@
 {
   "name": "aston-button",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/aston-button.umd.js",
   "module": "dist/aston-button.esm.js",
   "unpkg": "dist/aston-button.min.js",
