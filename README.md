@@ -7,13 +7,13 @@ This isn't particularly useful, it's used as a demo for how to publish Vue compo
 ## Installation
 
 ```js
-npm i --save-dev aston-vue-button-2
+npm i --save-dev aston-button
 ```
 
 ### Module
 
 ```js
-import AstonButton from 'aston-vue-button-2';
+import AstonButton from 'aston-button';
 ```
 
 ## Usage
