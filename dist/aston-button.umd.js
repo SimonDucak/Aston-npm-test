@@ -1,5 +1,14 @@
-var MyComponent = (function (exports, __vue_normalize__) {
-  'use strict';
+(function (global, factory) {
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('C:UserssducakDesktop
+pm-test
+ode_modulesollup-plugin-vueuntime
+ormalize.js')) :
+  typeof define === 'function' && define.amd ? define(['exports', 'C:UserssducakDesktop
+pm-test
+ode_modulesollup-plugin-vueuntime
+ormalize.js'], factory) :
+  (global = global || self, factory(global.MyComponent = {}, global.__vue_normalize__));
+}(this, (function (exports, __vue_normalize__) { 'use strict';
 
   __vue_normalize__ = __vue_normalize__ && __vue_normalize__.hasOwnProperty('default') ? __vue_normalize__['default'] : __vue_normalize__;
 
@@ -81,6 +90,6 @@ var MyComponent = (function (exports, __vue_normalize__) {
   exports.default = __vue_component__;
   exports.install = install;
 
-  return exports;
+  Object.defineProperty(exports, '__esModule', { value: true });
 
-}({}, __vue_normalize__));
+})));
